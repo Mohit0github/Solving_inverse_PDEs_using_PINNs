@@ -1,0 +1,6 @@
+# Requires Python 3.7 for TensorFlow 1.15 compatibility
+tensorflow==1.15.0
+numpy>=1.16.0,<1.19.0
+scipy>=1.2.0,<1.6.0
+matplotlib>=3.0.0,<3.4.0
+pyDOE==0.3.8
