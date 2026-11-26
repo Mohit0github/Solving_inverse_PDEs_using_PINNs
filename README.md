@@ -6,10 +6,10 @@ This repository contains TensorFlow 1.x implementations of Physics-Informed Neur
 
 | Problem | Formulation | Task | Script |
 | :--- | :--- | :--- | :--- |
-| **Allen-Cahn (AC)** | Discrete-time (100-stage IRK) | Forward solution | `main/allen_cahn/AC_modified.py` |
-| **Korteweg-de Vries (KdV)** | Discrete-time (50-stage IRK) | Inverse discovery (clean & 1% noise) | `main/kdv/KdV_modified.py` |
-| **Navier-Stokes (2D Cylinder Wake)** | Continuous-time | Inverse discovery & pressure inference | `main/navier_stokes/NavierStokes_modified.py` |
-| **Nonlinear Schrödinger (NLS)** | Continuous-time | Forward solution (periodic boundaries) | `main/schrodinger/Schrodinger_modified.py` |
+| **Allen-Cahn (AC)** | Discrete-time (100-stage IRK) | Forward solution | `main/allen_cahn/AC.py` |
+| **Korteweg-de Vries (KdV)** | Discrete-time (50-stage IRK) | Inverse discovery (clean & 1% noise) | `main/kdv/KdV.py` |
+| **Navier-Stokes (2D Cylinder Wake)** | Continuous-time | Inverse discovery & pressure inference | `main/navier_stokes/NavierStokes.py` |
+| **Nonlinear Schrödinger (NLS)** | Continuous-time | Forward solution (periodic boundaries) | `main/schrodinger/Schrodinger.py` |
 
 ## Repository Structure
 
