@@ -31,13 +31,13 @@ This repository contains TensorFlow 1.x implementations of Physics-Informed Neur
     │   ├── cylinder_nektar_wake.mat
     │   └── cylinder_nektar_t0_vorticity.mat
     ├── allen_cahn/
-    │   └── AC_modified.py
+    │   └── AC.py
     ├── kdv/
-    │   └── KdV_modified.py
+    │   └── KdV.py
     ├── navier_stokes/
-    │   └── NavierStokes_modified.py
+    │   └── NavierStokes.py
     └── schrodinger/
-        └── Schrodinger_modified.py
+        └── Schrodinger.py
 ~~~
 
 ## Environment Setup
@@ -63,16 +63,16 @@ Run each solver from its own subfolder so that the relative paths to `../Data/` 
 
 ~~~bash
 # Allen-Cahn (Forward)
-cd main/allen_cahn && python AC_modified.py
+cd main/allen_cahn && python AC.py
 
 # Korteweg-de Vries (Inverse)
-cd main/kdv && python KdV_modified.py
+cd main/kdv && python KdV.py
 
 # Navier-Stokes (Inverse)
-cd main/navier_stokes && python NavierStokes_modified.py
+cd main/navier_stokes && python NavierStokes.py
 
 # Nonlinear Schrödinger (Forward)
-cd main/schrodinger && python Schrodinger_modified.py
+cd main/schrodinger && python Schrodinger.py
 ~~~
 
 To save generated plots automatically, create a `figures/` directory inside the corresponding script folder and uncomment the `savefig(...)` call in the plotting function.
