@@ -76,8 +76,13 @@ cd main/schrodinger && python Schrodinger.py
 ~~~
 
 To save generated plots automatically, create a `figures/` directory inside the corresponding script folder and uncomment the `savefig(...)` call in the plotting function.
+### Acknowledgements and References
 
-## Reference
+This project builds upon the Physics-Informed Neural Networks (PINNs) framework introduced by Raissi, Perdikaris, and Karniadakis (2019). The publicly available reference implementation provided by the original authors was used as a starting point for the computational implementation.
 
-Methodology and benchmark datasets are based on:
-> M. Raissi, P. Perdikaris, and G. E. Karniadakis, *"Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations,"* Journal of Computational Physics, vol. 378, pp. 686–707, 2019.
+The code was adapted and extended for investigating inverse PDE problems, particularly the estimation of unknown physical parameters. The original research paper and reference implementation are acknowledged as the foundational sources for this work.
+
+**References:**
+
+1. Raissi, M., Perdikaris, P., & Karniadakis, G. E. (2019). Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations. *Journal of Computational Physics*, 378, 686–707.
+2. Original implementation: https://github.com/maziarraissi/PINNs
